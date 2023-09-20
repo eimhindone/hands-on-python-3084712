@@ -27,6 +27,12 @@ with open("laureates.csv", "r") as f:
 #      my_list.append("something")
 
 laureates_beginning_with_a = []
+
+for laur in laureates:
+    if laur["name"][0] == "A":
+        laureates_beginning_with_a.append(laur)
+
+
 # LinkedIn learner code here
 
 
